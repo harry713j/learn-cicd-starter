@@ -3,6 +3,7 @@ package auth
 import (
 	"errors"
 	"net/http"
+
 	"strings"
 )
 
