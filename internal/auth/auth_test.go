@@ -7,6 +7,8 @@ import (
 	"testing"
 )
 
+// IMP: https://dave.cheney.net/2019/05/07/prefer-table-driven-tests
+
 func TestGetAPIKey(t *testing.T) {
 	tests := []struct {
 		name    string
